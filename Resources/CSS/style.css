@@ -1,0 +1,135 @@
+h1 { 
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: bolder;
+font-size: 42px;
+line-height: 40px;
+text-transform: uppercase;
+}
+
+h2 {
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 29px;
+}
+
+h3 {
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #101010;
+}
+
+h4 {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+ font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #101010;
+}
+
+.spacer {
+    margin-bottom: 150px;
+}
+
+.leaf-text {
+    background-image: url("../Images/leaf_pic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.html-img {
+    background-image: url("../Images/HTML_grey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 83px;
+    width: auto;
+}
+
+.html-img:hover {
+    background-image: url("../Images/HTML_Active.png");
+}
+
+.css-img {
+    background-image: url("../Images/CSS_grey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 83px;
+    width: auto;
+}
+
+.css-img:hover {
+    background-image: url("../Images/CSS_Active.png");
+}
+
+.bootstrap-img {
+    background-image: url("../Images/Bootstrap_grey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 83px;
+    width: auto;
+}
+
+.bootstrap-img:hover {
+    background-image: url("../Images/Bootstrap_Active.png");
+}
+
+.vs-img {
+    background-image: url("../Images/Visual\ Studio_grey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 83px;
+    width: auto;
+}
+
+.vs-img:hover {
+    background-image: url("../Images/Visual\ Studio_Active.png");
+}
+
+
+.figma-img {
+    background-image: url("../Images/Figma_grey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 83px;
+    width: auto;
+}
+
+.figma-img:hover {
+    background-image: url("../Images/Figma_Active.png");
+}
+
+.js-img {
+    background-image: url("../Images/image\ 18.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 83px;
+    width: auto;
+}
+
+.js-img:hover {
+    background-image: url("../Images/image\ 18-1.png");
+}
