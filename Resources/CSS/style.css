@@ -152,5 +152,9 @@ p {
 }
 
 .nav-color {
-    background-color: white;
+    background-color: #F7F9F3;
+}
+
+body {
+    background-color: #F7F9F3;
 }
