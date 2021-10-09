@@ -5,7 +5,6 @@ h2 {
     background-color: black;
     text-align: center;
     font-weight: bold;
-    opacity: 0.5;
 }
 
 h3 {
@@ -15,7 +14,6 @@ h3 {
     background-color: black;
     text-align: center;
     font-weight: bold;
-    opacity: 0.5;
 }
 
 h4 {
@@ -24,7 +22,6 @@ h4 {
     color: seashell;
     background-color: black;
     text-align: center; 
-    opacity: 0.5;
 }
 
 h5 {
@@ -34,7 +31,6 @@ h5 {
     background-color: black;
     text-align: center; 
     font-weight: bold ;
-    opacity: 0.5;
 }
 
 body {
@@ -50,7 +46,6 @@ a {
     margin: 20px;
     font-weight: bold;
     text-decoration: underline;
-    opacity: 0.5;
 }
 
 .navbar {
@@ -70,15 +65,12 @@ header {
 .logo {
     margin: 10px;
     height: 50px;
-    opacity: 0.5;
 }
 
 .banner img {
     width: 1200px;
     height: 700px;
     position: relative;
-    opacity: 0.5;
-    
 }
 
 .banner {
@@ -103,7 +95,6 @@ header {
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
-    opacity: 0.5;
 }
 
 .teatext {
