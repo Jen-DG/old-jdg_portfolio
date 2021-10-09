@@ -44,6 +44,13 @@ color: #101010;
 
 .spacer {
     margin-bottom: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.spacer-footer{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .leaf-text {
@@ -132,4 +139,12 @@ color: #101010;
 
 .js-img:hover {
     background-image: url("../Images/image\ 18-1.png");
+}
+
+.contact {
+    text-decoration: none;
+}
+
+.foot-color {
+    background-color:#ACC484 ;
 }
