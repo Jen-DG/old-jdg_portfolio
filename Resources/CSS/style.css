@@ -79,6 +79,11 @@ p {
     margin-right: 10%;
 }
 
+.spacer-nav {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .leaf-text {
     background-image: url("../Images/leaf_pic.jpg");
     background-position: center;
@@ -154,4 +159,8 @@ p {
 
 .foot-color {
     background-color:#ACC484 ;
+}
+
+.nav-color {
+    background-color: white;
 }
