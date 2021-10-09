@@ -56,6 +56,11 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
+@media only screen and (max-width: 576px) {
+    .spacer {
+        margin-bottom: 50px;
+    }
+}
 
 .spacer-projects {
     margin-bottom: 150px;
@@ -63,7 +68,12 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
-
+@media only screen and (max-width: 576px) {
+     .spacer-projects {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
 .spacer-footer{
     margin-left: 10%;
     margin-right: 10%;
