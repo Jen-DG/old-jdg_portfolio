@@ -79,20 +79,16 @@ p {
 }
 
 .html-img {
-    background-image: url("../Images/HTML_grey.png");
+    background-image: url("../Images/HTML_Active.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 83px;
     width: auto;
-}
-
-.html-img:hover {
-    background-image: url("../Images/HTML_Active.png");
 }
 
 .css-img {
-    background-image: url("../Images/CSS_grey.png");
+    background-image: url("../Images/CSS_Active.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -100,12 +96,9 @@ p {
     width: auto;
 }
 
-.css-img:hover {
-    background-image: url("../Images/CSS_Active.png");
-}
 
 .bootstrap-img {
-    background-image: url("../Images/Bootstrap_grey.png");
+    background-image: url("../Images/Bootstrap_Active.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -113,48 +106,32 @@ p {
     width: auto;
 }
 
-.bootstrap-img:hover {
-    background-image: url("../Images/Bootstrap_Active.png");
-}
 
 .vs-img {
-    background-image: url("../Images/Visual\ Studio_grey.png");
+    background-image: url("../Images/Visual\ Studio_Active.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 83px;
     width: auto;
 }
-
-.vs-img:hover {
-    background-image: url("../Images/Visual\ Studio_Active.png");
-}
-
 
 .figma-img {
-    background-image: url("../Images/Figma_grey.png");
+    background-image: url("../Images/Figma_Active.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 83px;
     width: auto;
-}
-
-.figma-img:hover {
-    background-image: url("../Images/Figma_Active.png");
 }
 
 .js-img {
-    background-image: url("../Images/image\ 18.png");
+    background-image: url("../Images/image\ 18-1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 83px;
     width: auto;
-}
-
-.js-img:hover {
-    background-image: url("../Images/image\ 18-1.png");
 }
 
 .contact {
