@@ -1,0 +1,108 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #2E2E2E;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #2E2E2E;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #F4D45B;
+    font-weight: bold;
+    padding-left: 220px;
+}
+
+.info {
+    font-family: 'Montserrat', sans-serif;
+    color: #2E2E2E;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+h6 {
+    font-family: 'Arvo', serif;
+    font-size: 2px;
+    color: #2E2E2E;
+}
+
+.container-fluid {
+    background-color: #F4D45B;
+}
+
+.logo {
+    padding-left: 100px;
+    padding-top: 28px;
+    padding-bottom: 27px;
+}
+
+.mb-0 {
+    padding-right: 40px;
+}
+
+.spacer{
+    padding-top: 50px;
+    
+}
+
+.read-more button {
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+    color: #66C2B3;
+}
+
+.col-sm-8 {
+    padding-right: 300px;
+}
+
+h1,h6 {
+    padding-left: 120px;
+}
+
+.h2-1 {
+    padding-left: 120px;
+}
+
+.read-more-1 button  {
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+    color: #66C2B3;
+    padding-left: 00px;
+}
+
+.read-more-2 button  {
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+    color: #66C2B3;
+    padding-left: 20px;
+}
+
+.container-1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.h1-1 {
+    font-size: 30px;
+}
+
+footer {
+    background-color: #66C2B3;
+}
+
+footer img {
+    padding-left: 100px;
+    padding-top: 28px;
+    padding-bottom: 27px
+}
