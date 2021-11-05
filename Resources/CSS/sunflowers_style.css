@@ -1,0 +1,101 @@
+.header {
+    background-image: url("/jdg_portfolio/Resources/Images/sunflower-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    font-family:'Sacramento', cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h5 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    background-color: #FEF8A3;
+
+}
+
+h4 {
+    font-weight: bold;
+    font-family: 'Zen Kurenaido', sans-serif;
+
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.body {
+    background-color: #FFFEDF;
+}
+
+.card-body {
+    background-color: #FEF8A3;
+}
+
+.carousel-item {
+    width: 1000px;
+    height: 500px;
+}
+
+.carousel {
+    background-color: #FFFEDF;
+}
+
+.spacer {
+    padding-top: 100px;
+}
+
+
+.btn:focus, .btn:active {
+
+    outline: none !important;
+    box-shadow: none !important;
+}    
+
+video {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+  .imgdiv{
+    position: relative;
+    display: inline-block;
+    width:150px;
+    height: 150px;
+    line-height: 150px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FEF8A3;
+    cursor: pointer;
+    background-color: #BE2D01;
+}
+
+img1{
+    width:120px;
+    height: 120px;
+    padding: 10px;;
+}
+
+.hide{
+    padding: 10px;
+    visibility: hidden;
+}
+
+.match, .showimg{
+    visibility: visible !important;
+}
