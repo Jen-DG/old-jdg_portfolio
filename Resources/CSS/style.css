@@ -143,6 +143,15 @@ p {
     width: auto;
 }
 
+.react-img {
+    background-image: url("../Images/React_active.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 83px;
+    width: auto;
+}
+
 .contact {
     text-decoration: none;
 }
