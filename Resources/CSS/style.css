@@ -56,6 +56,15 @@ p {
     color: #101010;
 }
 
+a {
+    color: #101010;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ACC484;
+}
+
 .bio  {
     line-height: 30px;
 }
