@@ -1,6 +1,14 @@
 /* font-family: 'Ubuntu Mono', monospace; */
 /* font-family: 'Ubuntu', sans-serif; */
 
+
+/* spacing */
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .right-spacer {
     margin-right: 100px;
 }
@@ -8,6 +16,20 @@
 .left-spacer {
     margin-left: 130px;
 }
+
+@media only screen and (max-width: 576px) {
+    .right-spacer {
+        margin-right: 0px;
+    }
+    .left-spacer {
+        margin-left: 0px;
+    }
+}
+.portfolio {
+    width: 100%;
+}
+
+
 
 /* Headings and paragraphs */
 h1 {
@@ -19,6 +41,25 @@ h1 {
     font-size: 40px;
     height: 120px;
     padding: 10px;
+}
+@media only screen and (max-width: 576px) {
+    h1 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    h2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px) {
+    h2 {
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: -60px !important;
+        z-index: 10;
+        background-color: #9DB59F;
+    }
 }
 
 h4 {
@@ -73,12 +114,21 @@ p {
     color: #66826B;
 }
 
-/* header */
+a:hover {
+    color: #66826B !important;
+}
 
+
+/* header */
 
 .navbar-brand {
     /* margin-top: 2rem; */
     margin-left: 4.5rem;
+}
+@media only screen and (max-width: 576px) {
+    .navbar-brand {
+       margin-left: 0;
+    }
 }
 
 .navbar-nav{
@@ -87,11 +137,26 @@ p {
 
 hr {
     background-color: white;
-    width: 40%;
+    width: 50%;
     margin-top: 3rem;
-    margin-right: 7rem;
+    margin-right: 1rem;
 }
 
+.footer-hr {
+    color:white; 
+    border-style: solid ;
+    width: 50%;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 576px) {
+    hr {
+        display: none;
+    }
+    .footer-hr {
+        display: none;
+    }
+}
 
 .nav-link {
     font-family: 'Ubuntu Mono', monospace;
@@ -102,20 +167,59 @@ hr {
     margin-left: 100px;
 }
 
-.download {
-    display: flex;
-    margin-top: 2rem;
-}
-
 .jen {
     margin-left: 6rem;
     margin-top: 2rem;
 }
-
-.tech-img {
- padding: 30px 0;
-
+@media only screen and (max-width: 576px) {
+    .jen {
+        display: none;
+    }
 }
+
+@media only screen and (min-width: 800px) {
+    .media-jen {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .banner {
+        padding-bottom: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .media-jen {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.tech-img-container {
+    padding: 30px 0;
+}
+@media only screen and (max-width: 576px) {
+    .tech-img-container {
+      width: 100%;
+      padding: 20px 0;
+   }
+}
+
+@media only screen and (max-width: 575px) {
+    .tech-img {
+        width: 40px;
+    }
+}
+
+/* mobile screen nav */
+
+@media only screen and (max-width: 575px) {
+    .item1 {
+        margin-left: 0;
+    }
+}
+
 /* Projects */
 
 .btn {
@@ -125,6 +229,13 @@ hr {
 .btn:focus {
     outline: none;
     box-shadow: none;
+}
+
+@media only screen and (max-width: 575px) {
+    .modal-tech-stack {
+        padding: 0;
+        
+    }
 }
 
 .modal-header {
@@ -171,16 +282,31 @@ hr {
   color: #66826B;
 }
 
+@media only screen and (max-width: 575px) {
+    .contact-info {
+        flex-direction: column;
+        padding: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .contact-h4 {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-nav {
+        flex-direction: row;
+    }
+}
 
 
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 575px) {
+    #contact {
+        margin-top: 0 !important;
+    }
+}
 
 
 
