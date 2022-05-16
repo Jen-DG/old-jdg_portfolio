@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="Resources/CSS/Arkham_asylum_style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkham Asylum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+<style>
+    input[type = submit] {
+       background-color: #eb4034;
+       border: none;
+       text-decoration: none;
+       color: white;
+       padding: 20px 20px;
+       margin: 20px 20px;
+       font-family: "Kirang Haerang";
+       font-size: 20px;
+    }
+   
+ </style>
+</head>
+<body>
+    <div class="banner-new">
+        <a class="button-new" href="index.html" role="button">Go Back to Homepage</a>
+    </div>
+
+    <div class="header">
+         <img src="Resources/Images/d7xnclupr6y11.jpg" style="width: 100%; height: auto;"/>
+    </div>
+
+    <div class="welcome">
+        <h1>Welcome to Arkham Asylum</h1>
+        <p>Please complete the form before going through to processing</p>
+    </div>
+
+    <div class="form">
+        <form>
+            <label for="name">Name:</label> 
+            <input type="text" name="name" id="name"> <label for="surname">Surname:</label> <input type="text" name="surname" id="surname">
+            <br>
+            <label for="age">Age:</label>
+            <input id="age" name="age" type="number" step="1">
+            <br> 
+            <hr>
+          <section class="crimes">
+            <p>Please tick what crimes you have commited:</p>
+            <label for="murder">Murder</label>
+            <input id="murder" name="crimes" type="checkbox" value="murder"> <label for="blackmail">Blackmail</label> <input id="blackmain" name="crimes" type="checkbox" value="blackmail"> <label for="jewel heist">Jewel Heist</label> <input id="jewel heist" name="crimes" type="checkbox" value="jewel heist">
+            <br>
+            <label for="arson">Arson</label>
+            <input id="arson" name="crimes" type="checkbox" value="arson">  <label for="theft">Theft</label> <input id="theft" name="crimes" type="checkbox" value="theft">  <label for="abduction">Abduction</label> <input id="abduction" name="crimes" type="checkbox" value="abduction">
+            <br>
+            <label for="poisoning">Poisoning</label> 
+            <input id="poisoning" name="crimes" type="checkbox" value="poisoning"> <label for="mind control">Mind Control</label> <input id="mind control" name="crimes" type="checkbox" value="mind control"> <label for="racketeering">Racketeering</label> <input id="racketeering" name="crimes" type="checkbox" value="racketeering">
+            <br> 
+            <br>
+            <hr>
+          </section>  
+          <section class="crazy">
+            <label for="crazy">Please indicate how crazy you are?</label> <br>
+            <span>Sane</span> 
+            <input id="crazy" name="crazy" class="slider" type="range" min="0" max="100" step="1"> 
+            <span>Insane</span>
+          </section>  
+           <br>
+           <hr>
+         <section class="voices">
+             <p>Do you hear Voices?</p>
+             <input type="radio" name="voices" id="yes" value="yes">
+             <label for="yes">Yes</label>  <input type="radio" name="voices" id="no" value="no">
+             <label for="no">No</label>
+             <br>
+             <br>
+             <label for="answer">If you answered yes, please describe what they say below:</label>
+             <br>
+             <textarea id="answer" name="answer" rows="5" cols="40">
+             </textarea>
+         </section> 
+             <br>
+             <hr>
+             <section class="powers">
+                 <label for="powers">Please tick all the powers you possess:</label>
+                 <br>
+                 <br>
+                 <label for="super strength">Super Strength</label> <input id="super strength" name="powers" type="checkbox" value="super strength"> <label for="Flight">Flight</label> <input id="Flight" name="powers" type="checkbox" value="Flight">
+                 <br>
+                 <label for="mind control">Mind Control</label> <input id="mind control" name="powers" type="checkbox" value="mind control">  <label for="indestructible">Indestructible</label> <input id="indestructible" name="powers" type="checkbox" value="indestructible">
+                 <br>
+                 <label for="evil genius">Evil Genius</label> <input id="evil genius" name="powers" type="checkbox" value="evil genius">  <label for="mutation">Mutation</label> <input id="mutation" name="powers" type="checkbox" value="mutation">
+                 <br>
+                 <label for="electricity">Electricity</label> <input id="electricity" name="powers" type="checkbox" value="electricity">  <label for="magic">Magic</label> <input id="magic" name="powers" type="checkbox" value="magic">
+                <br>
+                <label for="immortality">Immortality</label> <input id="immortality" name="powers" type="checkbox" value="immortality">  <label for="speed">Speed</label> <input id="speed" name="powers" type="checkbox" value="speed">
+                </section>
+                <br>
+                <hr>
+         <section class="defeted">
+             <label for="defeted">Who defeted you??</label>
+             <select id="defeted" name="defeted">
+                 <option  value="Batman">Batman</option>
+                 <option value="Superman">Superman</option>
+                 <option value="Wonderwoman">Wonderwoman</option>
+                 <option value="The Flash">The Flash</option>
+                 <option value="Batwoman">Batwoman</option>
+                 <option value="Aquaman">Aquaman</option>
+                 <option value="Supergirl">Supergirl</option>
+                 <option value="Green Lantern">Green Lantern</option>
+                 <option value="Green Arrow">Green Arrow</option>
+             </select>
+         </section>  
+         <br>
+         <hr>
+         <section class="button">
+         
+         <input type="submit" value="Submit" style="cursor: pointer;">
+        </section>
+       <hr>
+    </form>
+    </div>
+   <footer>
+       <p class="p-footer">Arkham Asylum is sponsered by your favorite Super Heros</p>
+       <img src="Resources/Images/heroes.jpg" style="width: 100%; height: auto;"/>
+   </footer>
+</body>
+</html>
